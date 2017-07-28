@@ -1,5 +1,5 @@
 <?php
-require_once(__dir__ . "/_required/cf-api.php");
+require_once(__dir__ . "/cf-api.php");
 
 class banip{
 	public $err,$ip,$ips,$save,$file;
@@ -130,18 +130,17 @@ $banip->ajaxprocessing();
 ?>
 <html>
 <head>
-<title>The BanHammer</title>
+<title>Ban / Unban</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://bootswatch.com/darkly/bootstrap.min.css">
 <style>
 footer {
-    padding: 1em;
-    color: white;
-    /*background-color: #222222;*/
+	padding: 1em;
+	color: white;
 	text-align: center;
 	width: 100%;
 	bottom: 0;
-    position: fixed;
+	position: fixed;
 }
 footer a{
 	color: white;
@@ -153,47 +152,47 @@ footer a{
 }
 /**/
 .loader {
-  border: 16px solid #464545;
-  border-top: 16px solid #375a7f;
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  animation: spin 2s linear infinite;
-  display: none;
+	border: 16px solid #464545;
+	border-top: 16px solid #375a7f;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	animation: spin 2s linear infinite;
+	display: none;
 }
 
 @-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
 }
 /* */
 #container {
-    width:100%;
-    text-align:center;
+	width:100%;
+	text-align:center;
 }
 
 #left {
-    float:left;
-    width:30%;
-    height:50%;
+	float:left;
+	width:30%;
+	height:50%;
 }
 
 #center {
-    display: inline-block;
-    margin:0 auto;
-    width:%40;
-    height: 50%;
+	display: inline-block;
+	margin:0 auto;
+	width:%40;
+	height: 50%;
 }
 
 #right {
-    float:right;
-    width:30%;
-    height: 50%;
+	float:right;
+	width:30%;
+	height: 50%;
 }
 
 </style>
