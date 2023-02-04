@@ -2,6 +2,9 @@
 
 ## About
 
+EDIT: As of a while ago, this script does not function!
+
+
 This PHP Script uses [Cloudflare's API](https://www.cloudflare.com/docs/client-api.html) to easily Ban/Unban IPs.
 This script can also parse nginx logs and ban malicious entities.
 
